@@ -1,0 +1,195 @@
+/*****************************************************************************
+ * used in every file
+ *****************************************************************************/
+
+/* valid generally */
+
+body, input, button, select, option, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #4B4B4B;
+}
+body {
+  height: 100%;
+  color: #EDF1ED;
+  background-color: #333333;
+}
+h1,h2 {
+  color: #ADADAD;
+}
+h2.normal,h3.normal,h4.normal {
+  font-weight: normal;
+  color: #4B4B4B;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 18px;
+  line-height: 0%;
+}
+h3 {
+  font-size: 16px;
+  line-height: 0%;
+}
+h4 {
+  font-size: 14px;
+  display: inline;
+}
+a:link {
+  text-decoration: none;  
+  color: #D4A946;
+}
+a:visited {
+  text-decoration: none;
+  color: #D4A946;
+}
+a:hover {
+  text-decoration: underline;  
+  color: #D4A946;
+}
+a:active {
+  text-decoration: underline;
+  color: #D4A946;
+}
+
+
+/* valid with classes */
+
+a.style {
+  font-size: 14px;
+}
+.btn_main {
+  border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border: 1px solid #333333;
+  background: #EDF1ED;
+}
+.btn_main:hover {
+  background: #ADADAD;
+}
+.btn_settings {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #333333;
+  background: #EDF1ED;
+}
+.btn_settings:hover {
+  background: #ADADAD;
+}
+
+
+/* valid with div containers */
+
+#id_title {
+  width: 100%;
+  text-align: center;
+}
+#id_main {
+  float: right;
+  width: 69%;
+  text-align: center;
+}
+#id_style_app_name {
+  float: left;  
+  width: 28%;
+  padding: 12px 12px 12px 12px; /* top right bottom left */
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  color: #ADADAD;
+  background-color: #EDF1ED;
+}
+#id_app_name {
+  border-bottom: 1px solid #ADADAD;
+}
+#id_style {
+  border-bottom: 1px solid #ADADAD;
+}
+#id_settings {
+  float: left;
+  width: 28%;
+  height: 350px;
+  overflow: auto;
+  padding: 12px 12px 12px 12px; /* top right bottom left */
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  background-color: #EDF1ED;
+  color: #4B4B4B;
+}
+#id_settings_elem {
+  clear: both;
+  width: 100%;
+  line-height: 24px;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  border-top: 1px solid #ADADAD;
+  font-size: 14px;
+}
+#id_width_small {
+  width: 40%;
+  float: left;
+}
+#id_width_big {
+  width: 60%;
+  float: left;
+}
+#id_cam_preview {
+}
+#id_cam_ctrls {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#id_sys_ctrls {
+}
+#mjpeg_dest {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 2px solid #EDF1ED;
+}
+#id_download {
+  padding-bottom: 40px;
+}
+
+
+/*****************************************************************************
+ * used in 'download_preview.php'
+ *****************************************************************************/
+
+#id_dl_settings {
+  float: left;
+  width: 28%;
+  padding: 12px 12px 12px 12px; /* top right bottom left */
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  background-color: #EDF1ED;
+  color: #4B4B4B;
+}
+#id_dl_main {
+  float: right;
+  width: 69%;
+}
+#id_dl_file {
+  padding: 12px 12px 12px 12px; /* top right bottom left */
+}
+#id_dl_file_link {
+  padding-bottom: 12px;
+}
+#id_dl_ctrls {
+  padding-top: 12px;
+}
+#id_dl_img_prev {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 2px solid #EDF1ED;
+}
